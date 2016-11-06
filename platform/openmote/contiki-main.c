@@ -67,6 +67,7 @@
 #include "ieee-addr.h"
 #include "lpm.h"
 
+#include "tps62730.h"
 #include "antenna.h"
 
 #include <stdint.h>
@@ -207,6 +208,7 @@ main(void)
 
   set_rf_params();
   netstack_init();
+  tps62730_init();
   
   antenna_init();
   PRINTF(" Antenna: external\n");
