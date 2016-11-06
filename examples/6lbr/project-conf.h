@@ -44,6 +44,9 @@
 #define COAP_CONF_DATA_FORMAT coap_data_format_text
 #endif
 
+#define FLASH_CCA_CONF_BOOTLDR_BACKDOOR_ACTIVE_HIGH   0
+#define FLASH_CCA_CONF_BOOTLDR_BACKDOOR_PORT_A_PIN    6
+
 #define REST_TYPE_SENML_CONF_TIMESTAMP 1
 
 /*------------------------------------------------------------------*/
